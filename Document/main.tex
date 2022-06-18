@@ -1,0 +1,49 @@
+\documentclass[openany]{book}
+\usepackage[english]{babel}
+\usepackage{biblatex}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{physics}
+\newtheorem{problem}{Problem}[chapter]
+\usepackage{lipsum}
+\usepackage[a4paper, total={6in,8in}]{geometry}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{xcolor}
+\usepackage{listings}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{orange},
+    keywordstyle=\color{blue},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codegreen},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\usepackage{hyperref}
+
+\title{Problems Elementary Mechanical Using Python}
+\date{June 16th 2022}
+
+\begin{document}
+    \maketitle
+    \input{lib/chapter2.tex}
+\end{document}
