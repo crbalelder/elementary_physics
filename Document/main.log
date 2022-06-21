@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.10)  17 JUN 2022 22:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.10)  21 JUN 2022 16:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -704,9 +704,45 @@ Package pdftex.def Info: img/chapter2/2-5/2_5_plot_c.png  used on input line 92.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[4] (/home/vicbonsaix/Physics/Elmentary_Mechanical_Using_Python/Document/Programs/chapter2/2_6_Plotting_1x_n.py [5 </home/vicbonsaix/Physics/Elmentary_Mechanical_Using_Python/Document/img/chapter2/2-5/2_5_plot_a.png> </home/vicbonsaix/Physics/Elmentary_Mechanical_Using_Python/Document/img/chapter2/2-5/2_5_plot_b.png> </home/vicbonsaix/Physics/Elmentary_Mechanical_Using_Python/Document/img/chapter2/2-5/2_5_plot_c.png>])
+<img/chapter2/2-6/2_6_plot_xs.png, id=173, 361.35pt x 361.35pt>
+File: img/chapter2/2-6/2_6_plot_xs.png Graphic file (type png)
+<use img/chapter2/2-6/2_6_plot_xs.png>
+Package pdftex.def Info: img/chapter2/2-6/2_6_plot_xs.png  used on input line 111.
+(pdftex.def)             Requested size: 216.81pt x 216.81168pt.
+ (/home/vicbonsaix/Physics/Elmentary_Mechanical_Using_Python/Document/Programs/chapter2/2_7_Plotting_sinx.py [6 </home/vicbonsaix/Physics/Elmentary_Mechanical_Using_Python/Document/img/chapter2/2-6/2_6_plot_xs.png>])
+<img/chapter2/2-7/2_7_plot_sinx.png, id=204, 361.35pt x 361.35pt>
+File: img/chapter2/2-7/2_7_plot_sinx.png Graphic file (type png)
+<use img/chapter2/2-7/2_7_plot_sinx.png>
+Package pdftex.def Info: img/chapter2/2-7/2_7_plot_sinx.png  used on input line 132.
+(pdftex.def)             Requested size: 216.81pt x 216.81168pt.
+ (/home/vicbonsaix/Physics/Elmentary_Mechanical_Using_Python/Document/Programs/chapter2/2_8_logistic_map.py [7 </home/vicbonsaix/Physics/Elmentary_Mechanical_Using_Python/Document/img/chapter2/2-7/2_7_plot_sinx.png>])
+<img/chapter2/2-8/2_8_logistic_map.png, id=234, 722.7pt x 578.16pt>
+File: img/chapter2/2-8/2_8_logistic_map.png Graphic file (type png)
+<use img/chapter2/2-8/2_8_logistic_map.png>
+Package pdftex.def Info: img/chapter2/2-8/2_8_logistic_map.png  used on input line 150.
+(pdftex.def)             Requested size: 368.57964pt x 294.86652pt.
+ [8 </home/vicbonsaix/Physics/Elmentary_Mechanical_Using_Python/Document/img/chapter2/2-8/2_8_logistic_map.png>] (/home/vicbonsaix/Physics/Elmentary_Mechanical_Using_Python/Document/Programs/chapter2/2_9_Euler_me.py)
+<img/chapter2/2-9/2_9_accele_a.png, id=267, 722.7pt x 578.16pt>
+File: img/chapter2/2-9/2_9_accele_a.png Graphic file (type png)
+<use img/chapter2/2-9/2_9_accele_a.png>
+Package pdftex.def Info: img/chapter2/2-9/2_9_accele_a.png  used on input line 174.
+(pdftex.def)             Requested size: 390.25534pt x 312.20175pt.
+<img/chapter2/2-9/2_9_accele_b.png, id=268, 722.7pt x 578.16pt>
+File: img/chapter2/2-9/2_9_accele_b.png Graphic file (type png)
+<use img/chapter2/2-9/2_9_accele_b.png>
+Package pdftex.def Info: img/chapter2/2-9/2_9_accele_b.png  used on input line 178.
+(pdftex.def)             Requested size: 390.25534pt x 312.20175pt.
+
+
+LaTeX Warning: Float too large for page by 103.24352pt on input line 183.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
- [4] [5 </home/vicbonsaix/Physics/Elmentary_Mechanical_Using_Python/Document/img/chapter2/2-5/2_5_plot_a.png> </home/vicbonsaix/Physics/Elmentary_Mechanical_Using_Python/Document/img/chapter2/2-5/2_5_plot_b.png> </home/vicbonsaix/Physics/Elmentary_Mechanical_Using_Python/Document/img/chapter2/2-5/2_5_plot_c.png>]
+ [9] [10 </home/vicbonsaix/Physics/Elmentary_Mechanical_Using_Python/Document/img/chapter2/2-9/2_9_accele_a.png> </home/vicbonsaix/Physics/Elmentary_Mechanical_Using_Python/Document/img/chapter2/2-9/2_9_accele_b.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
  (/home/vicbonsaix/Physics/Elmentary_Mechanical_Using_Python/Document/main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
@@ -718,18 +754,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18682 strings out of 481239
- 310907 string characters out of 5920377
- 1193175 words of memory out of 5000000
- 33583 multiletter control sequences out of 15000+600000
+ 18908 strings out of 481239
+ 315377 string characters out of 5920377
+ 1194648 words of memory out of 5000000
+ 33650 multiletter control sequences out of 15000+600000
  543079 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,8n,46p,882b,1968s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,12n,46p,882b,3368s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0800.pfb>
-Output written on /home/vicbonsaix/Physics/Elmentary_Mechanical_Using_Python/Document/main.pdf (5 pages, 260899 bytes).
+Output written on /home/vicbonsaix/Physics/Elmentary_Mechanical_Using_Python/Document/main.pdf (10 pages, 461284 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 204 compressed objects within 3 object streams
- 103 named destinations out of 1000 (max. 500000)
- 24 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 438 PDF objects out of 1000 (max. 8388607)
+ 385 compressed objects within 4 object streams
+ 242 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
