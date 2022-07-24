@@ -39,11 +39,22 @@
 \lstset{style=mystyle}
 
 \usepackage{hyperref}
-
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
 \title{Problems Elementary Mechanical Using Python}
 \date{June 16th 2022}
 
 \begin{document}
     \maketitle
+    \tableofcontents
+    \lstlistoflistings
     \input{lib/chapter2.tex}
+    \input{lib/chapter3.tex}
+    
 \end{document}
