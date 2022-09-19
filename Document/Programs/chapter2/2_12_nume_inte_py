@@ -1,0 +1,30 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+def reading_txt(string):
+    data = np.loadtxt(string)
+    t = data[:,0]; v = data[:,1]
+    return t, v
+
+def location(t,v):
+    y = np.zeros(len(t))
+
+    for k in range(1,len(t)):
+        y[k] = y[k-1] + v[k-1]*(t[k]-t[k-1])
+    
+    return y
+
+def plotting(t,y,v):
+    fig, (ax1,ax2) = plt.subplots(2,1,figsize=(6,5))
+    ax1.plot(t,y,'r')
+    ax1.set_ylabel('$y(t)$')
+    ax2.plot(t,v,'b')
+    ax2.set_ylabel('$v(t)$')
+    ax2.set_xlabel('$t(s)$')
+    plt.tight_layout()
+    fig.savefig('Document/img/chapter2/2-12/2_12-png')
+
+if __name__ == '__main__':
+    t, v = reading_txt('Document/datasets/chapter2/velocity.dat')
+    y = location(t,v)
+    plotting(t,y,v)

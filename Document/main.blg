@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'main.blg'
+[112] biber:322> INFO - === Fri Jun 24, 2022, 09:21:20
+[136] Biber.pm:415> INFO - Reading 'main.bcf'
+[203] Utils.pm:293> WARN - No data sources defined!
